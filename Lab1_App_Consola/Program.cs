@@ -8,7 +8,13 @@ namespace Lab1_App_Consola
         {
             Console.WriteLine("Hello World!");
 
-            Lab1_Arbol_Multicamino.Arbol<int> arbol = new Lab1_Arbol_Multicamino.Arbol<int>(5);
+            Lab1_Arbol_Multicamino.Arbol<string> arbol = new Lab1_Arbol_Multicamino.Arbol<string>(5);
+
+            arbol.Insertar("A");
+            arbol.Insertar("B");
+            arbol.Insertar("C");
+            arbol.Insertar("D");
+            arbol.Insertar("E");
             Console.ReadLine();
         }
     }
