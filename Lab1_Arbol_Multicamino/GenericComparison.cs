@@ -6,7 +6,26 @@ namespace Lab1_Arbol_Multicamino
 {
     class GenericComparison<T> where T : IComparable
     {
-        
+        public static int Position(T[] data, Delegate comparer, T val)
+        {
+            for (int i = 0; i < data.Length; i++)
+            {
+                if (!object.Equals(data[i], default(T)))
+                {
+                    if ((int)comparer.DynamicInvoke(val, data[i]) == -1)
+                    {
+                        return i;
+                    }
+
+                }
+                else
+                {
+                    return i;
+                }
+            }
+            return data.Length;
+
+        }
         public static T[] SortedList(T[] data, Delegate comparer)
         {
             for (int i = 0; i < data.Length - 1; i++)
