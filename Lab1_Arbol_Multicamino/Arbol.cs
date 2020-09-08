@@ -7,14 +7,12 @@ namespace Lab1_Arbol_Multicamino
     public class Arbol<T> where T : IComparable
     {
         private Nodo<T> Raiz { get; set; }
-        public int Grado { get; set; }
 
         List<T> ListValuesToShow = new List<T>();
 
         public Arbol(int grado)
         {
             Raiz = null;
-            Grado = grado;
         }
 
         public bool Vacio()
@@ -22,18 +20,18 @@ namespace Lab1_Arbol_Multicamino
             if (Raiz == null) { return true; } else { return false; };
         }
 
-        public void Insertar(T valor)
+        public void Insertar(T valor, int g)
         {
             if (Raiz == null) //si el arbol esta vacio
             {
-                Nodo<T> nodo = new Nodo<T>();
+                Nodo<T> nodo = new Nodo<T>(g);
                 nodo.Padre = null;
                 nodo.Valores[0] = valor;
                 Raiz = nodo;
             }
             else //si hay otro valor en el arbol
             {
-                Raiz.Insercion(valor);
+                Raiz.Insercion(valor, g);
             }
         }
     }

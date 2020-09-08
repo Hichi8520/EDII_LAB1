@@ -15,6 +15,7 @@ namespace Lab1_App_Consola
             //arbol.Insertar("C");
             //arbol.Insertar("D");
             //arbol.Insertar("E");
+            int g = 3;
 
             Lab1_Arbol_Multicamino.Pelicula pelicula1 = new Lab1_Arbol_Multicamino.Pelicula();
             pelicula1.title = "T";
@@ -76,28 +77,28 @@ namespace Lab1_App_Consola
             Lab1_Arbol_Multicamino.Pelicula pelicula20 = new Lab1_Arbol_Multicamino.Pelicula();
             pelicula20.title = "A";
 
-            Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula> arbol = new Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula>(5);
+            Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula> arbol = new Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula>(g);
 
-            arbol.Insertar(pelicula1);
-            arbol.Insertar(pelicula2);
-            arbol.Insertar(pelicula3);
-            arbol.Insertar(pelicula4);
-            arbol.Insertar(pelicula5);
-            arbol.Insertar(pelicula6);
-            arbol.Insertar(pelicula7);
-            arbol.Insertar(pelicula8);
-            arbol.Insertar(pelicula9);
-            arbol.Insertar(pelicula10);
-            arbol.Insertar(pelicula11);
-            arbol.Insertar(pelicula12);
-            arbol.Insertar(pelicula13);
-            arbol.Insertar(pelicula14);
-            arbol.Insertar(pelicula15);
-            arbol.Insertar(pelicula16);
-            arbol.Insertar(pelicula17);
-            arbol.Insertar(pelicula18);
-            arbol.Insertar(pelicula19);
-            arbol.Insertar(pelicula20);
+            //arbol.Insertar(5, g);
+            //arbol.Insertar(3, g);
+            //arbol.Insertar(10, g);
+            //arbol.Insertar(4, g);
+            arbol.Insertar(pelicula5, g);
+            arbol.Insertar(pelicula7, g);
+            arbol.Insertar(pelicula6, g);
+            arbol.Insertar(pelicula8, g);
+            arbol.Insertar(pelicula10, g);
+            arbol.Insertar(pelicula9, g);
+            arbol.Insertar(pelicula11, g);
+            arbol.Insertar(pelicula12, g);
+            arbol.Insertar(pelicula13, g);
+            arbol.Insertar(pelicula14, g);
+            arbol.Insertar(pelicula15, g);
+            arbol.Insertar(pelicula16, g);
+            arbol.Insertar(pelicula17, g);
+            arbol.Insertar(pelicula18, g);
+            arbol.Insertar(pelicula19, g);
+            arbol.Insertar(pelicula20, g);
 
 
             //var peli = new Lab1_Arbol_Multicamino.Pelicula { Name = "Tita", Directed_by = "asdf", Genre = "drama" };

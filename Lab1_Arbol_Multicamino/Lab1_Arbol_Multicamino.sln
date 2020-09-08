@@ -6,8 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1_Arbol_Multicamino", "Lab1_Arbol_Multicamino.csproj", "{DC25C212-80D0-4EEE-9805-8FF5970532CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1_App_Consola", "..\Lab1_App_Consola\Lab1_App_Consola.csproj", "{E6DD4280-51E5-42CE-9A1D-88BDCD2ED76B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C0910BB-461F-4E11-82EA-1E1B61ABDF9A} = {4C0910BB-461F-4E11-82EA-1E1B61ABDF9A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_API", "..\Lab1_API\Lab1_API.csproj", "{4C0910BB-461F-4E11-82EA-1E1B61ABDF9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1_API", "..\Lab1_API\Lab1_API.csproj", "{4C0910BB-461F-4E11-82EA-1E1B61ABDF9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
