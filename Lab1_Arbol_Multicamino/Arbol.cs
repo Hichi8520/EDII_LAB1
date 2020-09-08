@@ -9,6 +9,8 @@ namespace Lab1_Arbol_Multicamino
         private Nodo<T> Raiz { get; set; }
         public int Grado { get; set; }
 
+        List<T> ListValuesToShow = new List<T>();
+
         public Arbol(int grado)
         {
             Raiz = null;

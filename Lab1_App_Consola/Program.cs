@@ -17,64 +17,64 @@ namespace Lab1_App_Consola
             //arbol.Insertar("E");
 
             Lab1_Arbol_Multicamino.Pelicula pelicula1 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula1.Name = "T";
+            pelicula1.title = "T";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula2 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula2.Name = "S";
+            pelicula2.title = "S";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula3 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula3.Name = "R";
+            pelicula3.title = "R";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula4 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula4.Name = "Q";
+            pelicula4.title = "Q";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula5 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula5.Name = "P";
+            pelicula5.title = "P";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula6 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula6.Name = "O";
+            pelicula6.title = "O";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula7 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula7.Name = "N";
+            pelicula7.title = "N";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula8 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula8.Name = "M";
+            pelicula8.title = "M";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula9 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula9.Name = "L";
+            pelicula9.title = "L";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula10 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula10.Name = "K";
+            pelicula10.title = "K";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula11 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula11.Name = "J";
+            pelicula11.title = "J";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula12 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula12.Name = "I";
+            pelicula12.title = "I";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula13 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula13.Name = "H";
+            pelicula13.title = "H";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula14 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula14.Name = "G";
+            pelicula14.title = "G";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula15 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula15.Name = "F";
+            pelicula15.title = "F";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula16 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula16.Name = "E";
+            pelicula16.title = "E";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula17 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula17.Name = "D";
+            pelicula17.title = "D";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula18 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula18.Name = "C";
+            pelicula18.title = "C";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula19 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula19.Name = "B";
+            pelicula19.title = "B";
 
             Lab1_Arbol_Multicamino.Pelicula pelicula20 = new Lab1_Arbol_Multicamino.Pelicula();
-            pelicula20.Name = "A";
+            pelicula20.title = "A";
 
             Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula> arbol = new Lab1_Arbol_Multicamino.Arbol<Lab1_Arbol_Multicamino.Pelicula>(5);
 
