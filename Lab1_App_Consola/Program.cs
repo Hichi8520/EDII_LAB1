@@ -38,6 +38,25 @@ namespace Lab1_App_Consola
             {
                 Console.Write(InOrden[i]+" , ");
             }
+            Console.WriteLine();
+
+            Console.WriteLine("Recorrido PreOrder");
+            List<int> PreOrden = new List<int>();
+            PreOrden = Tree.PreOrder(g);
+            for (int i = 0; i < PreOrden.Count; i++)
+            {
+                Console.Write(PreOrden[i] + " , ");
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Recorrido PostOrder");
+            List<int> PostOrden = new List<int>();
+            PostOrden = Tree.PostOrder(g);
+            for (int i = 0; i < PostOrden.Count; i++)
+            {
+                Console.Write(PostOrden[i] + " , ");
+            }
             Console.ReadLine();
         }
     }

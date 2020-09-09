@@ -59,5 +59,61 @@ namespace Lab1_Arbol_Multicamino
             InOrder(Raiz,g);
             return ListValuesToShow;
         }
+
+        private void PreOrder(Nodo<T> nodo_actual, int g)
+        {
+            for (int i = 0; i < g; i++)
+            {
+                if (i < g - 1)
+                {
+                    if (!object.Equals(nodo_actual.Valores[i], default(T)))
+                    {
+                        ListValuesToShow.Add(nodo_actual.Valores[i]);
+                    }
+                }
+            }
+
+            for (int i = 0; i < g; i++)
+            {
+                if (!object.Equals(nodo_actual.Hijos[i], default))
+                {
+                    PreOrder(nodo_actual.Hijos[i], g);
+                }
+            }
+        }
+        public List<T> PreOrder(int g)
+        {
+            ListValuesToShow.Clear();
+            PreOrder(Raiz, g);
+            return ListValuesToShow;
+        }
+
+        private void PostOrder(Nodo<T> nodo_actual, int g)
+        {
+            for (int i = 0; i < g; i++)
+            {
+                if (!object.Equals(nodo_actual.Hijos[i], default))
+                {
+                    PostOrder(nodo_actual.Hijos[i], g);
+                }
+            }
+
+            for (int i = 0; i < g; i++)
+            {
+                if (i < g - 1)
+                {
+                    if (!object.Equals(nodo_actual.Valores[i], default(T)))
+                    {
+                        ListValuesToShow.Add(nodo_actual.Valores[i]);
+                    }
+                }
+            }
+        }
+        public List<T> PostOrder(int g)
+        {
+            ListValuesToShow.Clear();
+            PostOrder(Raiz, g);
+            return ListValuesToShow;
+        }
     }
 }

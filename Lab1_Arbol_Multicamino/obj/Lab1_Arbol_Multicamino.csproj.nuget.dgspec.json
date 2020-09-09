@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hichi\\Documents\\GitHub\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj": {}
+    "C:\\Users\\ericd\\Documents\\URL\\URL\\Clases\\Estructura de datos II\\Lab\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hichi\\Documents\\GitHub\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj": {
+    "C:\\Users\\ericd\\Documents\\URL\\URL\\Clases\\Estructura de datos II\\Lab\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hichi\\Documents\\GitHub\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj",
+        "projectUniqueName": "C:\\Users\\ericd\\Documents\\URL\\URL\\Clases\\Estructura de datos II\\Lab\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj",
         "projectName": "Lab1_Arbol_Multicamino",
-        "projectPath": "C:\\Users\\hichi\\Documents\\GitHub\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj",
-        "packagesPath": "C:\\Users\\hichi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hichi\\Documents\\GitHub\\EDII_LAB1\\Lab1_Arbol_Multicamino\\obj\\",
+        "projectPath": "C:\\Users\\ericd\\Documents\\URL\\URL\\Clases\\Estructura de datos II\\Lab\\EDII_LAB1\\Lab1_Arbol_Multicamino\\Lab1_Arbol_Multicamino.csproj",
+        "packagesPath": "C:\\Users\\ericd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ericd\\Documents\\URL\\URL\\Clases\\Estructura de datos II\\Lab\\EDII_LAB1\\Lab1_Arbol_Multicamino\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hichi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ericd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
