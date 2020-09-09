@@ -7,3 +7,11 @@ C:\Users\ericd\Documents\URL\URL\Clases\Estructura de datos II\Lab\EDII_LAB1\Lab
 C:\Users\ericd\Documents\URL\URL\Clases\Estructura de datos II\Lab\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.csproj.CoreCompileInputs.cache
 C:\Users\ericd\Documents\URL\URL\Clases\Estructura de datos II\Lab\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.dll
 C:\Users\ericd\Documents\URL\URL\Clases\Estructura de datos II\Lab\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.pdb
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\bin\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.deps.json
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\bin\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.dll
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\bin\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.pdb
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.csprojAssemblyReference.cache
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.AssemblyInfoInputs.cache
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.AssemblyInfo.cs
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.dll
+C:\Users\hichi\Documents\GitHub\EDII_LAB1\Lab1_Arbol_Multicamino\obj\Debug\netcoreapp3.1\Lab1_Arbol_Multicamino.pdb

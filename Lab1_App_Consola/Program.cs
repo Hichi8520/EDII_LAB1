@@ -29,7 +29,7 @@ namespace Lab1_App_Consola
                 }
             }
 
-            Console.WriteLine("El ingreso de información a finalizado ");
+            Console.WriteLine("El ingreso de información ha finalizado ");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine("Recorrido InOrder");
             List<int> InOrden = new List<int>();

@@ -132,7 +132,7 @@ namespace Lab1_Arbol_Multicamino
             return data;
         }
 
-        public bool Tiene_espacio(Nodo<T> nodo_actual,int g)// determina si tiene espacio el nodo para insertar
+        public bool Tiene_espacio(Nodo<T> nodo_actual, int g)// determina si tiene espacio el nodo para insertar
         {
             if (!object.Equals(nodo_actual.Valores[g - 2], default(T)))
             {

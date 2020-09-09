@@ -37,39 +37,21 @@ namespace Lab1_Arbol_Multicamino
 
         private void InOrder(Nodo<T> nodo_actual, int g)
         {
-
-            if (!object.Equals(nodo_actual.Hijos[0], default(T)))
+            for (int i = 0; i < g; i++)
             {
-                for (int i = 0; i < g; i++)
+                if (!object.Equals(nodo_actual.Hijos[i], default))
                 {
-                    if (!object.Equals(nodo_actual.Hijos[i], default(T)))
-                    {
-                        InOrder(nodo_actual.Hijos[i], g);
-
-                        if (i < g - 1)
-                        {
-                            if (!object.Equals(nodo_actual.Hijos[i], default(T)))
-                            {
-                                ListValuesToShow.Add(nodo_actual.Valores[i]);
-                            }
-                        }
-
-                    }
-
+                    InOrder(nodo_actual.Hijos[i], g);
                 }
-            }
-            else
-            {
-                for (int i = 0; i < g - 1; i++)
+                if (i < g - 1)
                 {
                     if (!object.Equals(nodo_actual.Valores[i], default(T)))
                     {
                         ListValuesToShow.Add(nodo_actual.Valores[i]);
+
                     }
                 }
             }
-
-
         }
         public List<T> InOrder(int g)
         {
