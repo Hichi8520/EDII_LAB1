@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Lab1_Arbol_Multicamino;
 
 namespace Lab1_API.Helpers
 {
@@ -17,6 +18,9 @@ namespace Lab1_API.Helpers
                 return _instance;
             }
         }
-        int Grado = 0;
+
+        public int g = 0;
+        public Arbol<Pelicula> Arbol_Pelis = new Arbol<Pelicula>(5);
+        public List<Pelicula> Lista_Pelis = new List<Pelicula>();
     }
 }
