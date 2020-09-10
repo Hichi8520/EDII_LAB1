@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Lab1_API.Helpers;
 using Lab1_Arbol_Multicamino;
+using System.Text.Json;
 
 namespace Lab1_API.Controllers
 {
@@ -25,11 +26,14 @@ namespace Lab1_API.Controllers
 
         [HttpPost]
         [Route("populate")]
-        public string Add([FromBody]Pelicula value)
+        public string Add([FromBody]List<Pelicula> value)
         {
             if (Data.Instance.g != 0)
             {
-                Data.Instance.Arbol_Pelis.Insertar(value,Data.Instance.g);
+                for(int i = 0; i < value.Count; i++)
+                {
+                    Data.Instance.Arbol_Pelis.Insertar(value[i], Data.Instance.g);
+                }
                 return "OK";
             }
             else
