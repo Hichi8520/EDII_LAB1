@@ -14,6 +14,12 @@ namespace Lab1_API.Controllers
     [ApiController]
     public class MoviesController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        {
+            string mensaje = "Laboratorio 1 - Inicio Exitoso...\n * Cree su arbol - Mande un numero para crear el grado del arbol \n * Mande sus inserciones en desde postman por medio de una lista de peliculas agregando a la url '/populate'\n * Verifique la información por medio de modificar la url con los recorridos /InOrder  /PostOrder /PreOrder \n";
+            return mensaje;
+        }
 
         [HttpPost]
         public string Grado([FromBody] int value)
@@ -28,15 +34,22 @@ namespace Lab1_API.Controllers
         [Route("populate")]
         public string Add([FromBody]List<Pelicula> value)
         {
-            if (Data.Instance.g != 0)
+            try
             {
-                for(int i = 0; i < value.Count; i++)
+                if (Data.Instance.g != 0)
                 {
-                    Data.Instance.Arbol_Pelis.Insertar(value[i], Data.Instance.g);
+                    for (int i = 0; i < value.Count; i++)
+                    {
+                        Data.Instance.Arbol_Pelis.Insertar(value[i], Data.Instance.g);
+                    }
+                    return "OK";
                 }
-                return "OK";
+                else
+                {
+                    return "Debe de crear su arbol primero";
+                }
             }
-            else
+            catch (InvalidCastException e)
             {
                 return "InternalServerError";
             }
